@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.App {
+  padding: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .App {
+    padding: 10px;
+  }
+}

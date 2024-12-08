@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",  // For React 17+ (for older versions use "react")
+      "module": "ESNext",  // For modern modules
+      "moduleResolution": "Node",
+      "target": "ES5",     // or ES6 depending on your needs
+      "allowJs": true,     // Allow JavaScript files in the project (if applicable)
+      "strict": true,      // Enable strict mode for better type-checking
+      "esModuleInterop": true
+    }
+  }
